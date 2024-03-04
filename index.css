@@ -69,3 +69,11 @@ h2,
 h3 {
   margin: 0;
 }
+
+a {
+  color: var(--sand);
+}
+a:hover {
+  color: var(--aqua-green);
+  text-decoration: none; /* Accessibility principles indicate that there needs to be a way for any links to be obvious before any hover state. */
+}
