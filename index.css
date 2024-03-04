@@ -7,26 +7,36 @@
      we don't have to worry about them as :root covers the entire DOM.
 
   2) Specificity - a pseudo class is more heavily weighted than a simple element like html.
+
+  Note: targeting * is even worse than targeting html as * is easily overriden as it has 0 specificity.
 */
 :root {
-  --black: #171321;
-  --aquaocean: #0477bf;
-  --aquawater: #048abf;
-  --aquagreen: #3c92a6;
+  --aqua-ocean: #0477bf;
+  --aqua-water: #048abf;
+  --aqua-green: #3c92a6;
   --sand: #bfb19f;
-  --aquafoam: #aed3f2;
-  --white: #f7f8fa;
+  --aqua-foam: #aed3f2;
   --font-size: 1.3rem;
-  --mono: "Oxygen mono", monospace;
-  --sans: Oxygen, sans-serif;
+  --lato: "Lato", sans-serif; /* sans-serif fonts don't have decorative lines or tapers */
+  --play-fair-display: "Playfair Display", serif; /* serif fonts do have decorative lines or tapers */
 }
 
 /*
   Border box model: https://css-tricks.com/box-sizing/
 */
 html {
-  box-sizing: border-box;
+  box-sizing: border-box; /* By default, a website's box-sizing is set to content-box. */
 }
+
+/*
+  Pseudo classes (:) allow you to style different states of an element.
+
+  e.g., When you hover over it, when it is disabled, when it is the first child of its parent, etc.
+
+  Pseudo elements (::) allow you to style different parts of an element.
+
+  e.g., The first line, the first letter, inserting content before or after, etc.
+*/
 *,
 *::before,
 *::after {
@@ -41,4 +51,8 @@ html {
 body {
   padding: 0;
   margin: 0;
+  font-family: var(--lato);
+  background-color: var(--aqua-ocean);
+  color: var(--aqua-foam);
+  font-size: var(--font-size);
 }
