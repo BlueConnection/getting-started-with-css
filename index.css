@@ -21,7 +21,9 @@
   --sans: Oxygen, sans-serif;
 }
 
-/* Border box model: https://css-tricks.com/box-sizing/ */
+/*
+  Border box model: https://css-tricks.com/box-sizing/
+*/
 html {
   box-sizing: border-box;
 }
@@ -31,6 +33,12 @@ html {
   box-sizing: inherit;
 }
 
+/*
+  Allows elements in body to be stretched to the edges of the screen.
+
+  Depending on the browser, padding or margin will be applied - we target both to 0 to address this.
+*/
 body {
-  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
 }
