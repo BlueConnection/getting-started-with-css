@@ -56,3 +56,16 @@ body {
   color: var(--aqua-foam);
   font-size: var(--font-size);
 }
+
+/*
+  h<#> and p tags have 1em of margin by default.
+
+  To easier style these elements, we remove the default margin on them.
+
+  Note: The margin of two elements will collapse (e.g., 1 + 1 = 1).
+*/
+h1,
+h2,
+h3 {
+  margin: 0;
+}
