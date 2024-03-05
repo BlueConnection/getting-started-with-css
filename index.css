@@ -92,4 +92,5 @@ a:hover {
   font-family: var(--lato);
   font-size: 4rem;
   color: var(--sand);
+  display: block;
 }
