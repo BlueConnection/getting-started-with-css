@@ -94,3 +94,7 @@ a:hover {
   color: var(--sand);
   display: block;
 }
+#intro h2 {
+  font-size: 4rem;
+  font-weight: normal;
+}
