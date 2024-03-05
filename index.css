@@ -77,3 +77,19 @@ a:hover {
   color: var(--aqua-green);
   text-decoration: none; /* Accessibility principles indicate that there needs to be a way for any links to be obvious before any hover state. */
 }
+
+#intro {
+  padding-bottom: 18rem;
+}
+#intro p {
+  font-size: 1rem;
+  line-height: 1.5; /* Do not provide a unit of measure! (1.5 * whatever happens to be the font size) */
+}
+#intro .name {
+  font-family: var(--play-fair-display);
+}
+.name span {
+  font-family: var(--lato);
+  font-size: 4rem;
+  color: var(--sand);
+}
