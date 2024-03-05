@@ -98,3 +98,13 @@ a:hover {
   font-size: 4rem;
   font-weight: normal;
 }
+
+#contact {
+  width: 400px;
+  text-align: center;
+  margin: 0 auto; /* mt & mb are 0, ml & mr are auto - this is a way to center elements */
+  padding: 3rem 0;
+}
+#contact p:last-child {
+  margin-top: 3rem;
+}
