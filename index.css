@@ -115,7 +115,7 @@ nav {
   padding: 1rem;
 }
 nav h1 a {
-  font-family: var(--play-fair-display);
+  font-family: var(--lato);
 }
 nav ul {
   list-style-type: none; /* Removes the bullets of your li elements. */
@@ -127,4 +127,16 @@ nav ul {
   justify-content: center; /* Center content in the main axis (e.g., display of row is horizontal). */
   align-items: center; /* Center content in the cross axis (e.g., display of row is vertical). */
   gap: 2rem;
+}
+nav li:first-child {
+  flex-basis: 100%; /* Gets name in the nav bar in its own row above the other links. */
+  text-align: center;
+}
+nav a {
+  color: var(--aqua-foam);
+  text-decoration: none;
+  display: block; /* Makes text of links more easy to click? */
+}
+nav a:hover {
+  color: var(--sand);
 }
