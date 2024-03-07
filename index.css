@@ -136,6 +136,10 @@ nav [class*="fa-"] {
   font-size: 150%;
   color: var(--sand);
 }
+nav h1 [class*="fa-"] {
+  font-size: 100%;
+  color: var(--sand);
+}
 nav a {
   color: var(--aqua-foam);
   text-decoration: none;
