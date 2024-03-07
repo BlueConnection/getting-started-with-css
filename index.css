@@ -108,3 +108,23 @@ a:hover {
 #contact p:last-child {
   margin-top: 3rem;
 }
+
+nav {
+  font-family: var(--lato);
+  font-size: 80%;
+  padding: 1rem;
+}
+nav h1 a {
+  font-family: var(--play-fair-display);
+}
+nav ul {
+  list-style-type: none; /* Removes the bullets of your li elements. */
+  padding: 0; /* To remove the indent of the li elements, we set both padding and margin to 0 (browsers use either padding or margin). */
+  margin: 0; /* " */
+
+  display: flex;
+  flex-flow: row wrap; /* Allow elements to wrap onto another line. */
+  justify-content: center; /* Center content in the main axis (e.g., display of row is horizontal). */
+  align-items: center; /* Center content in the cross axis (e.g., display of row is vertical). */
+  gap: 2rem;
+}
