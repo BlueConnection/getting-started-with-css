@@ -6,7 +6,7 @@
 
 Code based on Jen Kramer's "Getting Started with CSS" course on Frontend Masters.
 
-## Colors & Fonts
+## Resources Used
 
 ### Color Palette
 
@@ -20,7 +20,14 @@ _Source: https://color.adobe.com/search?q=Summer&t=term_
 
 ### Font Pair
 
-- <span style="font-family: 'Playfair Display';">This sentence uses the "Playfair Display" font.</span>
-- <span style="font-family: 'Lato';">This sentence uses the "Lato" font.</span>
+- <span style="font-family: 'Playfair Display';">Playfair Display</span>
+- <span style="font-family: 'Lato';">Lato</span>
 
 _Source: https://www.fontpair.co/pairings/playfair-display-lato_
+
+### Font Awesome Icons (v5.15.4)
+
+- fab fa-linkedin
+- fab fa-github-square
+- fas fa-envelope
+- fas fa-pizza-slice
