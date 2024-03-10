@@ -18,6 +18,17 @@ Code based on Jen Kramer's "Getting Started with CSS" course on Frontend Masters
 
 _Source: https://color.adobe.com/search?q=Summer&t=term_
 
+### Gradient
+
+- Start:
+  <span style="background-color: #FF7F7F; color: black;">&nbsp;&nbsp;&nbsp;#FF7F7F&nbsp;&nbsp;&nbsp;</span>
+- End:
+  <span style="background-color: #FFEE59; color: black;">&nbsp;&nbsp;&nbsp;#FFEE59&nbsp;&nbsp;&nbsp;</span>
+- Angle: 90
+- Linear
+
+_Source: https://cssgradient.io/_
+
 ### Font Pair
 
 - <span style="font-family: 'Playfair Display';">Playfair Display</span>
