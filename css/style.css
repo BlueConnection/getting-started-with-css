@@ -78,6 +78,11 @@ a:hover {
   text-decoration: none; /* Accessibility principles indicate that there needs to be a way for any links to be obvious before any hover state. */
 }
 
+/* Background color divs */
+.section-aqua-water {
+  background-color: var(--aqua-water);
+}
+
 #intro {
   padding: 4rem 1rem 10rem 1rem;
   max-width: 1200px;
