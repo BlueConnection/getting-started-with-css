@@ -163,6 +163,9 @@ nav [class*="fa-"]:hover {
   background-color: var(--aqua-green);
   padding: 0.5rem;
   border-radius: 5px;
+  font-family: var(--lato);
+  color: var(--aqua-foam);
+  text-decoration: none;
 }
 .button:hover {
   color: var(--aqua-green);
@@ -186,6 +189,7 @@ nav [class*="fa-"]:hover {
 
 footer {
   text-align: center;
+  padding: 4rem 0;
 }
 footer ul {
   list-style-type: none;
