@@ -151,3 +151,13 @@ nav a:hover {
 nav [class*="fa-"]:hover {
   color: var(--aqua-green);
 }
+
+.button {
+  background-color: var(--aqua-green);
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.button:hover {
+  color: var(--aqua-green);
+  background-color: var(--aqua-foam);
+}
