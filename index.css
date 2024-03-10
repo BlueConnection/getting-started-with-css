@@ -161,3 +161,18 @@ nav [class*="fa-"]:hover {
   color: var(--aqua-green);
   background-color: var(--aqua-foam);
 }
+
+/*
+  850px because extensive testing shows that this is a good point.
+*/
+@media (min-width: 850px) {
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  nav li:first-child {
+    flex-basis: auto; /* Reset the flex-basis from 100% to auto. */
+    text-align: left;
+    margin-right: auto;
+  }
+}
