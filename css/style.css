@@ -81,6 +81,9 @@ a:hover {
 .section-aqua-water {
   background-color: var(--aqua-water);
 }
+.section-aqua-green {
+  background-color: var(--aqua-green);
+}
 
 .gradient {
   background: linear-gradient(
@@ -178,6 +181,22 @@ nav [class*="fa-"]:hover {
 .button:hover {
   color: var(--aqua-green);
   background-color: var(--aqua-foam);
+}
+
+#places {
+  padding: 4rem 1rem;
+}
+#places h2 {
+  font-size: 2.5rem;
+  margin-bottom: calc(2.5rem * 1.5);
+}
+#places h3 {
+  color: var(--sand);
+}
+#places h4 {
+  font-size: 1rem;
+  font-family: var(--play-fair-display);
+  margin: 0;
 }
 
 /*
