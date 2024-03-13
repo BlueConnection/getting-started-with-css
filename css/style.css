@@ -78,6 +78,10 @@ a:hover {
   text-decoration: none; /* Accessibility principles indicate that there needs to be a way for any links to be obvious before any hover state. */
 }
 
+img {
+  width: 100%;
+}
+
 .section-aqua-water {
   background-color: var(--aqua-water);
 }
@@ -196,7 +200,7 @@ nav [class*="fa-"]:hover {
 #places h4 {
   font-size: 1rem;
   font-family: var(--play-fair-display);
-  margin: 0;
+  margin: 0 0 1rem 0;
 }
 .waterbox {
   background-color: var(--aqua-water);
@@ -221,6 +225,20 @@ nav [class*="fa-"]:hover {
   border-top: 1px solid var(--sand);
   border-radius: 25px;
   padding: 1rem;
+}
+@media (min-width: 550px) {
+  article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .text {
+    order: 2;
+    text-align: right;
+  }
+  #places ul {
+    justify-content: flex-end;
+  }
 }
 
 /*
