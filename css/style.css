@@ -198,6 +198,13 @@ nav [class*="fa-"]:hover {
   font-family: var(--play-fair-display);
   margin: 0;
 }
+.waterbox {
+  background-color: var(--aqua-water);
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
 
 /*
   850px because extensive testing shows that this is a good point.
