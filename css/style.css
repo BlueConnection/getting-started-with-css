@@ -226,11 +226,15 @@ nav [class*="fa-"]:hover {
   border-radius: 25px;
   padding: 1rem;
 }
-@media (min-width: 550px) {
+@media (min-width: 800px) {
   article {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     gap: 1rem;
+  }
+  #places {
+    max-width: 1200px;
+    margin: 0 auto;
   }
   #places img {
     grid-column: 1/6;
