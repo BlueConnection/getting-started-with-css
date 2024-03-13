@@ -245,6 +245,18 @@ nav [class*="fa-"]:hover {
   #places ul {
     justify-content: flex-end;
   }
+  #places .reverse .text {
+    grid-column: 1/7;
+    order: 2;
+    text-align: left;
+  }
+  #places .reverse img {
+    grid-column: 6/11;
+    grid-row: 1/2;
+  }
+  #places .reverse ul {
+    justify-content: flex-start;
+  }
 }
 
 /*
